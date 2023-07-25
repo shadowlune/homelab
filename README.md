@@ -33,3 +33,11 @@ After decided what OS you wish to install, you can go to the advance settings to
 <p align="center">
   <img src="https://github.com/shadowlune/homelab/assets/118125336/bf78f544-506f-4a37-aef9-b5c77b7341cc" width="500">
 </p>
+
+## Post-installation
+You should always update your raspberry pi with the following code to get the latest packages to upgrade.
+```sh
+sudo apt update && sudo apt upgrade -y
+```
+## Installing docker and portainer
+I personally follow [pi-hosted](https://github.com/pi-hosted/pi-hosted) to learn how to install docker and portainer.

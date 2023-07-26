@@ -23,7 +23,7 @@ Beginner to command-line interface (CLI)
 - If you don't happen to have a separate computer to install the imager, you can still install it by using network boot simply by holding shift after you plug in power supply and ethernet cable once it's being turned on. It should prompt the installation of the operating system via the raspberry pi imager.
 
 For those familiar with the command-line interface (CLI)
-- You can install the Raspberry Pi OS Lite for a more minimal linux terminal instead of having a desktop environment.
+- You can install the Raspberry Pi OS Lite for a more minimal Linux terminal instead of having a desktop environment.
 
 After decided what OS you wish to install, you can go to the advance settings to change the following in advance:
 - hostname (the raspberrypi name, default is raspberry pi)
@@ -39,5 +39,43 @@ You should always update your raspberry pi with the following code to get the la
 ```sh
 sudo apt update && sudo apt upgrade -y
 ```
-## Installing docker and portainer
-I personally follow [pi-hosted](https://github.com/pi-hosted/pi-hosted) to learn how to install docker and portainer.
+For those who are using the full version, you can click icon on the top right and click install updates.
+<p align="center">
+  <img src="https://github.com/shadowlune/homelab/assets/118125336/896beb32-1985-4c08-85b4-4e4759e45fb6" width="500">
+</p>
+
+## Installing docker
+First you will need to get the docker script from docker and install it with the following code:
+```sh
+curl -sSL https://get.docker.com | sh
+```
+You will also need to use the follow code if you don't want to use sudo everytime you want to use docker command.
+```sh
+sudo usermod -aG docker $USER
+```
+After installing, you will have to reboot for the changes made to take effect.
+```sh
+sudo reboot
+```
+After rebooting, you can test with the following code to check if it's properly installed, as shown in the screenshot below.
+```sh
+docker run hello-world
+```
+<p align="center">
+  <img src="https://github.com/shadowlune/homelab/assets/118125336/cb4444b4-3893-4947-8d8c-adbbe01403fb" width="500">
+</p>
+
+## Self-hosted Applications
+Here's a list of services that I currently host on my Raspberry Pi and how to install them:
+- [Adguard Home](https://github.com/shadowlune/homelab/adguardhome.md) (DNS Server)
+- [Firefly III](https://github.com/shadowlune/homelab/firefly.md) (Personal Finance Manager)
+- [Homepage](https://github.com/shadowlune/homelab/homepage.md) (Docker Dashboard)
+- [MySQL](https://github.com/shadowlune/homelab/uptimekuma.md) (SQL Database)
+- [Nginx Proxy Manager](https://github.com/shadowlune/homelab/nginx.md) (Reverse Proxy)
+- [Portainer](https://github.com/shadowlune/homelab/portainer.md) (Docker GUI)
+- [Plex](https://github.com/shadowlune/homelab/plex.md) (Media Server)
+- [Shell in a Box](https://github.com/shadowlune/homelab/shellinabox.md) (Web SSH)
+- [Uptime Kuma](https://github.com/shadowlune/homelab/uptimekuma.md) (Docker container Uptime)
+- [Vaultwarden](https://github.com/shadowlune/homelab/vaultwarden.md) (Password Manager)
+- [Whoogle](https://github.com/shadowlune/homelab/whoogle.md) (Ad-free Search Engine)
+- [Wireguard](https://github.com/shadowlune/homelab/wireguard.md) (VPN Tunnel)

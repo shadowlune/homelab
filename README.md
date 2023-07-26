@@ -71,7 +71,7 @@ Here's a list of services that I currently host on my Raspberry Pi and how to in
 - [Firefly III](https://github.com/shadowlune/homelab/blob/main/documentations/firefly.md) (Personal Finance Manager)
 - [Homepage](https://github.com/shadowlune/homelab/blob/main/documentations/homepage.md) (Docker Dashboard)
 - [MySQL](https://github.com/shadowlune/homelab/blob/main/documentations/uptimekuma.md) (SQL Database)
-- [Nginx Proxy Manager](https://github.com/shadowlune/homelab/blob/main/documentations/nginxreverseproxy.md) (Reverse Proxy)
+- [Nginx Proxy Manager](https://github.com/shadowlune/homelab/blob/main/documentations/nginxproxymanager.md) (Reverse Proxy)
 - [Portainer](https://github.com/shadowlune/homelab/blob/main/documentations/portainer.md) (Docker GUI)
 - [Plex](https://github.com/shadowlune/homelab/blob/main/documentations/plex.md) (Media Server)
 - [Shell in a Box](https://github.com/shadowlune/homelab/blob/main/documentations/shellinabox.md) (Web SSH)

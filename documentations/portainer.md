@@ -13,7 +13,9 @@ sudo docker pull portainer/portainer-ce:latest
 ```
 You can now run the portainer as a docker container with the pulled image from the previous step.
 ```sh
-sudo docker run -d -p 9000:9000 -p 9443:9443 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+sudo docker run -d -p 9000:9000 -p 9443:9443 --name=portainer --restart=always \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  -v portainer_data:/data portainer/portainer-ce:latest 
 ```
 You can now access it with your Raspberry Pi's IP address on port 9000 for HTTP or port 9443 for HTTPs and create user.
 <p align="center">

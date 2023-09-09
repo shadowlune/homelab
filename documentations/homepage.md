@@ -34,7 +34,7 @@ An alternative way would be to make use of Portainer by clicking the 'Add Contai
   <img src="https://github.com/shadowlune/homelab/assets/118125336/4256ccd4-258b-4a86-b796-e38a8dfe2b69" width="750">
 </p>
 
-You should now be able to access it with your Raspberry Pi's IP address on port 3000 after you deploy the container.
+You should now be able to access it with your Raspberry Pi's IP address on port 3015 after you deploy the container.
 <p align="center">
   <img src="https://github.com/shadowlune/homelab/assets/118125336/44718c20-0299-4642-a6ee-61960d1ca239" width="750">
 </p>

@@ -25,7 +25,7 @@ An alternative way would be to make use of Portainer by clicking the 'Add Contai
   <img src="https://github.com/shadowlune/homelab/assets/118125336/b03778ff-bcb8-4dd4-b45b-e8756af41139" width="750">
 </p>
 <p align="center">
-  <img src="https://github.com/shadowlune/homelab/assets/118125336/d5c26bd0-a796-45a3-9a23-c4cd440b8d7f" width="750">
+  <img src="https://github.com/shadowlune/homelab/assets/118125336/725eb2b7-b7a4-4e30-8fc1-09b63ccd1c8b" width="750">
 </p>
 <p align="center">
   <img src="https://github.com/shadowlune/homelab/assets/118125336/d11a34ea-bc6b-4b14-abc6-18a6e5ed120f" width="750">

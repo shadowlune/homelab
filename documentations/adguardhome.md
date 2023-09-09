@@ -15,7 +15,7 @@ You can now run the portainer as a docker container with the pulled image from t
 ```sh
 docker run -d --name=adguardhome --restart=always \
   -v /portainer/AdguardHome/config:/opt/adguardhome/conf \
-  -v /portainer/AdguardHome/config/work:/opt/adguardhome/work \
+  -v /portainer/AdguardHome/work:/opt/adguardhome/work \
   -p 53:53/tcp -p 53:53/udp \
   -p 67:67/udp -p 68:68/udp \
   -p 4080:80/tcp -p 4443:443/tcp -p 4443:443/udp -p 3000:3000/tcp \
@@ -28,7 +28,7 @@ If you plan on using it as your DHCP server to distribute IP address on your hom
 ```sh
 sudo docker run -d --name=adguardhome --network host \
   -v /portainer/AdguardHome/config:/opt/adguardhome/conf \
-  -v /portainer/AdguardHome/config/work:/opt/adguardhome/work \
+  -v /portainer/AdguardHome/work:/opt/adguardhome/work \
   adguard/adguardhome
 ```
 
@@ -72,7 +72,7 @@ sudo docker rm adguardhome
 sudo docker rmi adguard/adguardhome
 sudo docker run -d --name=adguardhome --network host \
   -v /portainer/AdguardHome/config:/opt/adguardhome/conf \
-  -v /portainer/AdguardHome/config/work:/opt/adguardhome/work \
+  -v /portainer/AdguardHome/work:/opt/adguardhome/work \
   adguard/adguardhome
 ```
 

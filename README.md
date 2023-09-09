@@ -77,5 +77,4 @@ Here's a list of services that I currently host on my Raspberry Pi and how to in
 - [Shell in a Box](https://github.com/shadowlune/homelab/blob/main/documentations/shellinabox.md) (Web SSH)
 - [Uptime Kuma](https://github.com/shadowlune/homelab/blob/main/documentations/uptimekuma.md) (Docker container Uptime)
 - [Vaultwarden](https://github.com/shadowlune/homelab/blob/main/documentations/vaultwarden.md) (Password Manager)
-- [Whoogle](https://github.com/shadowlune/homelab/blob/main/documentations/whoogle.md) (Ad-free Search Engine)
 - [Wireguard](https://github.com/shadowlune/homelab/blob/main/documentations/wireguard.md) (VPN Tunnel)

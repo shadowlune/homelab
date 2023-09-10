@@ -64,6 +64,22 @@ You have finally finish the configuration and you can open the dashboard and sta
   <img src="https://github.com/shadowlune/homelab/assets/118125336/450d7155-e50c-4160-9292-bf4b32cd7397">
 </p>
 
+## DHCP Server
+AdGuard Home also has the ability to act as a DHCP server to distribute IP to network devices, which is easier to filter the ads and tracker since it will route everything through the raspberry pi instead of your internet service provider's router. However, this will only work if you installed it on the host network and you will need to turn off the DHCP from your ISP router before enabling the DHCP server with AdGuard Home.
+
+Here is an example where I have set a range of IP address to distribute from 192.168.183.112 to 192.168.183.143 with the gateway IP address being 192.168.183.2.
+
+<p align="center">
+  <img src="https://github.com/shadowlune/homelab/assets/118125336/d7c6fbf1-1a71-45ed-83ba-59db505c947f">
+</p>
+
+## DNS Rewrites
+DNS rewrites is part of the Filters section of AdGuard Home where you can use words to replace the IP address that you wish to reach on your home network. I mainly use this alongside with the Nginx Proxy Manager to force secure connection to the hosted services. Below are examples where I would setup the services I used by naming them accordingly and pointing them the raspberry pi's IP address. I will show how to direct it to the different ports and enforced secured connections in the [Nginx Proxy Manager](https://github.com/shadowlune/homelab/blob/main/documentations/nginxproxymanager.md) documentation.
+
+<p align="center">
+  <img src="https://github.com/shadowlune/homelab/assets/118125336/e27fde9e-583d-43e5-a0ee-57499d3327f6">
+</p>
+
 ## Updating
 Lastly, you will need to update the adguard as time goes on, you can do it with the following commands:
 ```sh

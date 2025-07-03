@@ -71,7 +71,7 @@ Here's a list of services that I currently host on my Raspberry Pi:
 - Firefly III (Personal Finance Manager)
 - [Homepage](https://github.com/shadowlune/homelab/blob/main/documentations/homepage.md) (Docker Dashboard)
 - MySQL (SQL Database)
-- [Nginx Proxy Manager](https://github.com/shadowlune/homelab/blob/main/documentations/nginxproxymanager.md) (Reverse Proxy)
+- [Nginx Proxy Manager] (Reverse Proxy)
 - [Portainer](https://github.com/shadowlune/homelab/blob/main/documentations/portainer.md) (Docker GUI)
 - Plex (Media Server)
 - Uptime Kuma (Docker container Uptime)
